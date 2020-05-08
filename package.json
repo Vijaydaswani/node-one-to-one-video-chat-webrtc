@@ -1,0 +1,19 @@
+{
+  "name": "one-to-one-video-chat-webrtc",
+  "version": "1.0.0",
+  "description": "One to One video chat.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node app.js",
+    "watch": "npx watchify ./public/main.js -o ./public/bundle.js"
+  },
+  "author": "Vijay Daswani",
+  "dependencies": {
+    "express": "^4.16.4",
+    "simple-peer": "^9.2.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "watchify": "^3.11.1"
+  }
+}
